@@ -1,0 +1,70 @@
+body{
+margin:0;
+
+}
+nav{
+background-color: rgb(149, 206, 187);
+
+}
+h1{
+color: rgb(49, 36, 36);
+}
+.flex-container{
+display: flex;
+}
+a{
+color: rgb(63, 35, 22);
+text-decoration: none;
+font-size: 30px;
+font-weight: bold;
+transition: 2s all;
+margin: 20px;
+}
+a:hover{
+background-color: rgb(123, 160, 228);
+color: rgb(141, 78, 90);
+}
+.flex-item1{
+flex:30%;
+background-color: rgb(112, 85, 99);
+}
+.flex-item2{
+flex:80%;
+
+}
+ul{
+list-style-type: none;
+
+}
+li{
+display: inline;
+margin-left: 40px;
+
+}
+.slider{
+height: 600px;
+background-image: url(../images/c2.webp);
+background-repeat: no-repeat;
+background-size: cover;
+
+animation-name: animate;
+animation-duration: 6s;
+animation-delay: 5s;
+animation-iteration-count: infinite;
+
+}
+@keyframes animate{
+from
+{
+    background-image: url(../images/c2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+to{
+background-image: url(../images/c3.webp);
+background-repeat:no-repeat ;
+background-size: contain;
+}
+
+}

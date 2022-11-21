@@ -1,0 +1,69 @@
+body {
+    margin: 0%;
+
+
+}
+
+.c1 {
+    height: 200px;
+    width: 200px;
+
+    background-image: linear-gradient(rgb(185, 128, 185), rgb(0, 0, 0));
+    border-radius: 20%;
+    position: absolute;
+ 
+    animation-name: a2;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes a2 {
+    0% {
+        left: 0;
+        top: 0;
+        transform: rotate(0.7turn);
+    }
+
+    5% {
+        left: 0px;
+        top: 50px;
+        background-image: linear-gradient(rgb(197, 94, 197), black);
+    }
+
+    10% {
+        left: 100px;
+        top: 100px;
+        background-image: linear-gradient(rgb(233, 233, 194), rgb(194, 173, 173));
+    }
+
+    15% {
+        left:200 ;
+        top: 150px;
+        background-image: linear-gradient(rgb(250, 159, 174),white);
+    }
+
+    20% { 
+left:300px ;
+top: 200px;
+background-image: linear-gradient(rgb(114, 68, 114),grey);
+    }
+
+    25%{
+left:400px ;
+top:250px;
+background-image: linear-gradient(rgb(124, 114, 124),rgb(247, 194, 194));
+    }
+30%{
+left: 500px;
+top:300px;
+background-image: purple,rgb(90, 90, 102);
+}
+35%{
+left:600px ;
+top:350px ;
+background-image:black,grey ;
+}
+
+}
